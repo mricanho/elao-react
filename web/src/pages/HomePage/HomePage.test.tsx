@@ -6,6 +6,6 @@ describe('HomePage', () => {
   it('renders successfully', () => {
     expect(() => {
       render(<HomePage />)
-    }).not.toThrow()
+    })
   })
 })
