@@ -1,17 +1,16 @@
-
 import { MetaTags } from '@redwoodjs/web'
 import AppLayout from 'src/layouts/AppLayout/AppLayout'
 
-const HomePage = () => {
+const AboutPage = () => {
   return (
     <>
-      <MetaTags title="Home" description="Home page" />
-      <AppLayout>
-        This is the homepage.
-      </AppLayout>
+      <MetaTags title="About" description="About page" />
 
+      <AppLayout>
+        This is the about page.
+      </AppLayout>
     </>
   )
 }
 
-export default HomePage
+export default AboutPage
